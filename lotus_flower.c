@@ -47,9 +47,9 @@ void task1(void *pvParameters)
 
 void multipwm_task(void *pvParameters)
 {
-    uint32_t counts[] = {500, 2100, 3000};
-    int32_t   steps[] = {100,  300,  200};
-    uint8_t    pins[] = { 12,   13,   15};
+    uint32_t counts[] = {5000, 2100, 3000};
+    int32_t   steps[] = {10,  300,  10};
+    uint8_t    pins[] = { 14,   12,   13};
 
     pwm_info_t pwm_info;
     pwm_info.channels = 3;
