@@ -1,4 +1,4 @@
-update=Sex 27 Abr 2018 18:13:40 -03
+update=2018 April 29, Sunday 12:11:51
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=tp4056
+LibName34=DW01A-G
+LibName35=FS8205A
+LibName36=ESP8266

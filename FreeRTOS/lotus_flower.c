@@ -47,9 +47,9 @@ void task1(void *pvParameters)
 
 void multipwm_task(void *pvParameters)
 {
-    uint32_t counts[] = {5000, 2100, 3000};
-    int32_t   steps[] = {10,  300,  10};
-    uint8_t    pins[] = { 14,   12,   13};
+uint32_t counts[] = {500, 2100, 3000};
+    int32_t   steps[] = {100,  300,  200};
+    uint8_t    pins[] = { 12,   13,   15};
 
     pwm_info_t pwm_info;
     pwm_info.channels = 3;
@@ -91,7 +91,7 @@ void buttonIntTask(void *pvParameters)
         // count1 += UINT16_MAX/17;
         // if (count1 > UINT16_MAX)
         //     count1 = 0;
-        // printf("count1 set to %d/UINT16_MAX\r\n", count1);
+        printf("count1 set to %d/UINT16_MAX\r\n", count1);
 
         // pwm_set_duty(count2, 12);
         // count2 += UINT16_MAX/8;
