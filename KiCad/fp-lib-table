@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name DW01A-G)(type Legacy)(uri "$(KIPRJMOD)/DW01A-G.mod")(options "")(descr ""))
+  (lib (name FS8205A)(type Legacy)(uri "$(KIPRJMOD)/FS8205A.mod")(options "")(descr ""))
+)
