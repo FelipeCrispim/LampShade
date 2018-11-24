@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Utils)(type Legacy)(uri ${KIPRJMOD}/Utils.lib)(options "")(descr ""))
+  (lib (name Lotus-rescue)(type Legacy)(uri ${KIPRJMOD}/Lotus-rescue.lib)(options "")(descr ""))
 )
